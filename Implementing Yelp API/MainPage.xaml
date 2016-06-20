@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Implementing_Yelp_API.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Implementing_Yelp_API"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140*"/>
+            <RowDefinition Height="401*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Title" HorizontalAlignment="Left" Height="280" Margin="10,-1,0,0" TextWrapping="Wrap" Text="San Francisco Reactor" VerticalAlignment="Top" Width="1900" Foreground="#FF152A44" FontSize="172" TextAlignment="Center"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="500" Margin="264,171,0,0" Grid.Row="1" VerticalAlignment="Top" Width="500"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="500" Margin="264,171,0,0" Grid.Row="1" VerticalAlignment="Top" Width="500"/>
+        <Button x:Name="button" Content="Yelp" HorizontalAlignment="Left" Height="55" Margin="1100,292,0,0" Grid.Row="1" VerticalAlignment="Top" Width="179"/>
+
+    </Grid>
+</Page>

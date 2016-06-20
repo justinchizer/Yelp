@@ -1,0 +1,1 @@
+c:\users\t-juschi\documents\visual studio 2015\Projects\Implementing Yelp API\Implementing Yelp API\Implementing Yelp API.csproj;x86
